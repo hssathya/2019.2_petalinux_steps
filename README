@@ -7,3 +7,5 @@ sudo chmod 777 /opt/pkg
 mkdir -P /opt/pkg/petalinux/2019.2
 ./petalinux-v2019.2-final-installer.run /opt/pkg/petalinux/2019.2
 Install TFTP (https://askubuntu.com/questions/201505/how-do-i-install-and-run-a-tftp-server)
+Install openssh (https://ubuntu.com/server/docs/service-openssh)
+Install mtd-utils (sudo apt install mtd-utils)
