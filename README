@@ -1,7 +1,9 @@
 Install Ubuntu 18.04 LTS (Download from ubuntu page and use Rufus to burn on USB, use DD method)
 Download petalinux_v2019.2 from XILINX webpage
 Install all the necessary tools
- sudo apt-get install gawk python build-essential gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential-dev zlib1g:i386 screen pax gzip
- In the above line check for build-essential-dev (someimes might  give error, can be ignoresd)
+sudo apt-get install gawk python build-essential gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential-dev zlib1g:i386 screen pax gzip
+In the above line check for build-essential-dev (someimes might  give error, can be ignoresd)
 sudo chmod 777 /opt/pkg
 mkdir -P /opt/pkg/petalinux/2019.2
+./petalinux-v2019.2-final-installer.run /opt/pkg/petalinux/2019.2
+Install TFTP (https://askubuntu.com/questions/201505/how-do-i-install-and-run-a-tftp-server)
